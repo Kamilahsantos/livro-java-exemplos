@@ -1,0 +1,5 @@
+<dependency>
+<groupId>org.hibernate</groupId>
+<artifactId>hibernate-core</artifactId>
+<version>sua versão aqui</version>
+</dependency>
