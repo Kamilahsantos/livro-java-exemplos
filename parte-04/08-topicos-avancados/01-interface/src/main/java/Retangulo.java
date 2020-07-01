@@ -44,6 +44,7 @@ public class Retangulo implements EspacoFigura {
 
     //Lembra do método getPerimetro da nossa interface?
     //Aqui fazemos override nele para fazer o cálculo do perímetro do nosso retângulo
+
     @Override
     public int getPerimetro() {
         int perimetro = 0;
