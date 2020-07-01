@@ -1,12 +1,15 @@
+//lembre-se: para implementar uma interface seguimos o padrao
+//(nome_da_classe) implements (nome_da_interface)
+
 public class Retangulo implements EspacoFigura {
-    //implementamos a interface EspacoFigura na classe retângulo 
+    //implementamos a interface EspacoFigura na classe retângulo
 
     private int lado1;
     private int lado2;
     private int lado3;
     private int lado4;
 
-    //geters e setters para todos os atributos
+    //geters e setters para todos os atributos, eles são os modificadores de acesso
     public int getLado1() {
         return lado1;
     }
